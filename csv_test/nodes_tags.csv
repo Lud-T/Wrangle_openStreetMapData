@@ -1,0 +1,730 @@
+id,key,value,type
+34555332,crossing,uncontrolled,regular
+34555332,crossing_ref,zebra,regular
+34555332,highway,crossing,regular
+80615978,highway,crossing,regular
+80616640,highway,crossing,regular
+80616640,traffic_calming,hump,regular
+290771674,highway,crossing,regular
+290771685,highway,crossing,regular
+308052451,highway,crossing,regular
+308052481,highway,turning_circle,regular
+308064203,crossing,marked,regular
+308064203,highway,crossing,regular
+308064224,highway,mini_roundabout,regular
+308067302,highway,mini_roundabout,regular
+308067379,highway,crossing,regular
+308070044,highway,turning_circle,regular
+308070065,highway,turning_circle,regular
+308070067,highway,turning_circle,regular
+308072207,highway,crossing,regular
+308072276,highway,mini_roundabout,regular
+308072310,highway,crossing,regular
+308079844,barrier,toll_booth,regular
+308080034,highway,mini_roundabout,regular
+308080086,bicycle,yes,regular
+308080086,highway,crossing,regular
+308080099,highway,crossing,regular
+308081341,crossing,traffic_signals,regular
+308081341,highway,traffic_signals,regular
+308096827,highway,crossing,regular
+308206467,transition,yes,location
+308206515,transition,yes,location
+308207509,transition,yes,location
+308777441,highway,motorway_junction,regular
+308777441,name,Salon-Sud,regular
+308777441,ref,15,regular
+308777762,barrier,toll_booth,regular
+308777768,crossing,traffic_signals,regular
+308777768,highway,traffic_signals,regular
+308777781,highway,crossing,regular
+309496118,highway,turning_circle,regular
+363834115,brand,Lidl,regular
+363834115,website,http://www.lidl.fr,brand
+363834115,wikidata,Q151954,brand
+363834115,wikipedia,fr:Lidl,brand
+363834115,name,Lidl + Carnivor,regular
+363834115,operator,Lidl,regular
+363834115,shop,supermarket,regular
+363834117,country,FR,addr
+363834117,name,P. Feraud,regular
+363834117,shop,bakery,regular
+363836071,highway,turning_circle,regular
+363836114,city,Salon-de-Provence,addr
+363836114,postcode,13300,addr
+363836114,amenity,police,regular
+363836114,name,Gendarmerie nationale,regular
+363836114,official_name,Brigade motoriée de Salon-de-Provence,regular
+363836114,operator,Gendarmerie nationale,regular
+363836114,wikidata,Q1422336,operator
+363836114,phone,+33 4 90 53 72 65,regular
+363836114,FR,gendarmerie,police
+363836114,FR:GendarmerieNationale,1009930,ref
+363836114,source,data.gouv.fr:Ministère de l'Intérieur - 10/2018,regular
+363836116,amenity,recycling,regular
+363836116,cans,yes,recycling
+363836116,glass,yes,recycling
+363836116,paper,yes,recycling
+363985013,city,Salon-de-Provence,addr
+363985013,housenumber,616,addr
+363985013,postcode,13300,addr
+363985013,street,Allées de Craponne,addr
+363985013,amenity,fast_food,regular
+363985013,brand,McDonald's,regular
+363985013,wikidata,Q38076,brand
+363985013,wikipedia,en:McDonald's,brand
+363985013,cuisine,burger,regular
+363985013,drive_through,yes,regular
+363985013,name,McDonald's,regular
+363985013,opening_hours,Mo-Su 11:00-23:00,regular
+363985013,phone,+33490537517,regular
+363985013,takeaway,yes,regular
+363985020,city,Salon-de-Provence,addr
+363985020,amenity,fast_food,regular
+363985020,brand,Burger King,regular
+363985020,wikidata,Q177054,brand
+363985020,wikipedia,en:Burger King,brand
+363985020,cuisine,burger,regular
+363985020,name,Burger King,regular
+363985020,takeaway,yes,regular
+363985033,brand,Intermarché,regular
+363985033,wikidata,Q3153200,brand
+363985033,wikipedia,fr:Intermarché,brand
+363985033,name,Intermarché,regular
+363985033,operator,Groupement des Mousquetaires,regular
+363985033,shop,supermarket,regular
+363985038,amenity,fuel,regular
+363985038,brand,Intermarché,regular
+363985038,wikidata,Q3153200,brand
+363985038,wikipedia,fr:Intermarché,brand
+363985038,diesel,yes,fuel
+363985038,e10,yes,fuel
+363985038,octane_98,yes,fuel
+363985038,name,Intermarché,regular
+363985038,opening_hours,24/7,regular
+363985038,operator,Groupement des Mousquetaires,regular
+363985038,FR:prix-carburants,13300008,ref
+363985038,shop,gas,regular
+363985038,source,"Ministère de l'Economie, de l'Industrie et du Numérique - 08/04/2018",regular
+363985038,vending,fuel,regular
+363985038,vending_machine,fuel,regular
+363985046,brand,Picard,regular
+363985046,wikidata,Q3382454,brand
+363985046,wikipedia,en:Picard Surgelés,brand
+363985046,name,Picard,regular
+363985046,operator,Picard,regular
+363985046,shop,frozen_food,regular
+363985156,highway,crossing,regular
+363985165,brand,Générale d'Optique,regular
+363985165,wikidata,Q62391701,brand
+363985165,name,Générale d'Optique,regular
+363985165,shop,optician,regular
+363985173,name,Chaussland,regular
+363985173,shop,shoes,regular
+363985182,shop,clothes,regular
+363985187,highway,traffic_signals,regular
+363985496,name,Chaussland,regular
+363985496,shop,shoes,regular
+363991776,city,Salon-de-Provence,addr
+363991776,postcode,13300,addr
+363991776,street,Boulevard du Roi René,addr
+363991776,brand,Speedy,regular
+363991776,wikidata,Q3492969,brand
+363991776,wikipedia,fr:Speedy (entreprise),brand
+363991776,name,Speedy,regular
+363991776,opening_hours,"Mo-Fr 08:30-12:30,14:00-18:00; Sa 08:30-12:30,14:00-16:00",regular
+363991776,operator,Speedy,regular
+363991776,phone,+33490423456,regular
+363991776,shop,car_repair,regular
+363991776,website,https://centres-auto.speedy.fr/garage/salon-de-provence-13300/222?utm_source=GMB&utm_campaign=Yext&utm_content=222&y_source=1_MTIwNDI0NDQtNzE1LWxvY2F0aW9uLmdvb2dsZV93ZWJzaXRlX292ZXJyaWRl,regular
+363991778,amenity,car_rental,regular
+363991778,name,Kiloutou,regular
+363991778,operator,Kiloutou,regular
+363991782,brand,Aldi,regular
+363991782,wikidata,Q125054,brand
+363991782,wikipedia,en:Aldi,brand
+363991782,name,Aldi,regular
+363991782,operator,Aldi,regular
+363991782,shop,supermarket,regular
+363991835,amenity,pharmacy,regular
+363991835,dispensing,yes,regular
+363991835,name,Pharmacie Guynemer,regular
+363991835,FR:FINESS,130032220,ref
+363991835,source,Celtipharm - 10/2014,regular
+436388286,amenity,school,regular
+436388286,name,Collège Joseph d'Arbaud,regular
+436388286,UAI,0130163G,ref
+436388286,FR,collège,school
+436388286,source,"data.gouv.fr:Ministère de l'Éducation nationale, de la Jeunesse et de la Vie associative - 05/2012",regular
+438084222,bicycle,yes,regular
+438084222,highway,crossing,regular
+438084223,highway,crossing,regular
+438084278,barrier,toll_booth,regular
+438084297,barrier,toll_booth,regular
+624569167,highway,crossing,regular
+624569167,traffic_calming,hump,regular
+624569976,source,cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2007,regular
+624569981,source,cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2007,regular
+624569996,direction,backward,regular
+624569996,highway,stop,regular
+624570005,source,cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2007,regular
+624570009,source,cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2007,regular
+624571095,country,FR,addr
+624571095,shop,bakery,regular
+624571100,name,Atol,regular
+624571100,shop,optician,regular
+624571102,name,Photo Price,regular
+624571102,shop,photo,regular
+624571105,amenity,bank,regular
+624571105,atm,yes,regular
+624571105,brand,BNP Paribas,regular
+624571105,wikidata,Q499707,brand
+624571105,wikipedia,en:BNP Paribas,brand
+624571105,name,BNP Paribas,regular
+624571105,operator,BNP,regular
+624571133,highway,crossing,regular
+1159293353,name,Centre Commercial Guynemer,regular
+1159293353,shop,convenience,regular
+1159352561,name,Pyrame Plus,regular
+1159352561,operator,Pyrame Plus,regular
+1159352561,shop,car_repair,regular
+1668541787,highway,motorway_junction,regular
+1668541787,name,Grans,regular
+1668541787,ref,14,regular
+1668542139,highway,crossing,regular
+1668542201,crossing,traffic_signals,regular
+1668542201,highway,crossing,regular
+1668542203,crossing,traffic_signals,regular
+1668542203,highway,crossing,regular
+1668542209,highway,traffic_signals,regular
+1668542211,crossing,traffic_signals,regular
+1668542211,highway,crossing,regular
+1668542212,crossing,traffic_signals,regular
+1668542212,highway,crossing,regular
+1668542377,highway,traffic_signals,regular
+1668542392,highway,traffic_signals,regular
+1671540153,crossing,traffic_signals,regular
+1671540153,highway,traffic_signals,regular
+1671540154,crossing,traffic_signals,regular
+1671540154,highway,traffic_signals,regular
+1671540167,highway,crossing,regular
+1671540175,highway,traffic_signals,regular
+1671540181,crossing,uncontrolled,regular
+1671540181,crossing_ref,zebra,regular
+1671540181,highway,crossing,regular
+1671540194,crossing,traffic_signals,regular
+1671540194,highway,traffic_signals,regular
+1671540196,highway,crossing,regular
+1671540206,crossing,uncontrolled,regular
+1671540206,crossing_ref,zebra,regular
+1671540206,highway,crossing,regular
+1671540217,crossing,uncontrolled,regular
+1671540217,crossing_ref,zebra,regular
+1671540217,highway,crossing,regular
+1671540221,crossing,uncontrolled,regular
+1671540221,crossing_ref,zebra,regular
+1671540221,highway,crossing,regular
+1744180867,amenity,car_rental,regular
+1744180867,name,ADA,regular
+1765063327,street,Boulevard Ventadouiro,addr
+1765063327,description,Agence de conception de site Internet,regular
+1765063327,name,CR Media,regular
+1765063327,office,yes,regular
+1912861346,crossing,traffic_signals,regular
+1912861346,highway,traffic_signals,regular
+1933020534,highway,mini_roundabout,regular
+1953725091,traffic_calming,hump,regular
+1953725092,traffic_calming,hump,regular
+2053304111,bench,yes,regular
+2053304111,bus,yes,regular
+2053304111,description,"Ligne 25 Salon-Martigues;Lignes, 4, 8, 9, a, b",regular
+2053304111,highway,bus_stop,regular
+2053304111,name,Roi René,regular
+2053304111,network,La Métropole Mobilité;Zou !,regular
+2053304111,public_transport,platform,regular
+2053304111,shelter,yes,regular
+2053304111,waste_basket,yes,regular
+2053304340,bus,yes,regular
+2053304340,description,"Ligne 25 Aix;Lignes, 4, 8, 9, a, b",regular
+2053304340,highway,bus_stop,regular
+2053304340,name,Roi René,regular
+2053304340,network,La Métropole Mobilité;Zou !,regular
+2053304340,public_transport,platform,regular
+2053304340,shelter,no,regular
+2053304340,waste_basket,yes,regular
+2053307097,bus,yes,regular
+2053307097,description,Ligne 25 Salon,regular
+2053307097,highway,bus_stop,regular
+2053307097,name,Guynemer,regular
+2053307097,network,La Métropole Mobilité,regular
+2053307097,public_transport,platform,regular
+2053307097,shelter,yes,regular
+2053307457,bus,yes,regular
+2053307457,highway,bus_stop,regular
+2053307457,name,Guynemer,regular
+2053307457,network,La Métropole Mobilité,regular
+2053307457,public_transport,platform,regular
+2382272717,housenumber,476,addr
+2382272717,source,cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2013,regular
+2382272722,housenumber,482,addr
+2382272722,source,cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2013,regular
+2382272726,housenumber,484,addr
+2382272726,source,cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2013,regular
+2382272730,housenumber,490,addr
+2382272730,source,cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2013,regular
+2382272734,housenumber,500,addr
+2382272734,source,cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2013,regular
+2382272738,housenumber,504,addr
+2382272738,source,cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2013,regular
+2382272742,housenumber,518,addr
+2382272742,source,cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2013,regular
+2382272745,housenumber,530,addr
+2382272745,source,cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2013,regular
+2480346256,noexit,yes,regular
+2480611297,highway,turning_circle,regular
+2485804914,barrier,gate,regular
+2589530742,highway,turning_circle,regular
+2589530858,highway,turning_circle,regular
+2595613132,city,Salon-de-Provence,addr
+2595613132,postcode,13300,addr
+2595613132,street,Rue Garbriero,addr
+2595613132,brand,Weldom,regular
+2595613132,wikidata,Q16683226,brand
+2595613132,wikipedia,fr:Weldom,brand
+2595613132,name,Weldom,regular
+2595613132,opening_hours,Mo-Sa 08:30-19:30,regular
+2595613132,phone,+33490532634,regular
+2595613132,shop,doityourself,regular
+2595613132,website,https://www.weldom.fr/weldom/nos-magasins/631.html,regular
+2605170455,bus,yes,regular
+2605170455,public_transport,stop_position,regular
+2605170456,bus,yes,regular
+2605170456,public_transport,stop_position,regular
+2605407745,bus,yes,regular
+2605407745,public_transport,stop_position,regular
+2605407746,bus,yes,regular
+2605407746,public_transport,stop_position,regular
+2976152305,brand,Baobab,regular
+2976152305,name,Baobab,regular
+2976152305,shop,garden_centre,regular
+3138336795,amenity,parking,regular
+3138336808,amenity,parking,regular
+3349409773,amenity,fountain,regular
+3349409774,barrier,gate,regular
+3620312922,amenity,pharmacy,regular
+3620312922,dispensing,yes,regular
+3620312922,healthcare,pharmacy,regular
+3620312922,name,Pharmacie de la Reine Jeanne,regular
+3620312922,FR:FINESS,130031123,ref
+3620312922,source,Celtipharm - 10/2014,regular
+3620378728,leisure,sports_centre,regular
+3620378728,name,Gymnase de Lurian,regular
+3620378728,source,"data.gouv.fr:Le ministère des droits des femmes, de la ville, de la jeunesse et des sports - 2014",regular
+3620378728,sport,multi,regular
+3620401840,city,Salon-de-Provence,addr
+3620401840,housenumber,356,addr
+3620401840,postcode,13300,addr
+3620401840,street,Boulevard de la Reine Jeanne,addr
+3620401840,amenity,school,regular
+3620401840,name,Collège Jean Bernard,regular
+3620401840,phone,+33490568240,regular
+3620401840,UAI,0133492A,ref
+3620401840,FR,collège,school
+3620401840,source,"data.gouv.fr:Ministère de l'Éducation nationale, de la Jeunesse et de la Vie associative - 05/2012",regular
+3620401840,website,http://www.clg-jeanbernard-salon.ac-aix-marseille.fr/spip/,regular
+3620401843,amenity,school,regular
+3620401843,name,Section d'enseignement général et professionnel adapté du Collège Joseph d'Arbaud,regular
+3620401843,UAI,0132571Z,ref
+3620401843,FR,SECTION ENSEIGNT GEN. ET PROF. ADAPTE,school
+3620401843,source,"data.gouv.fr:Ministère de l'Éducation nationale, de la Jeunesse et de la Vie associative - 05/2012",regular
+3620401872,amenity,school,regular
+3620401872,name,École maternelle Lurian,regular
+3620401872,UAI,0131155K,ref
+3620401872,FR,maternelle,school
+3620401872,source,"data.gouv.fr:Ministère de l'Éducation nationale, de la Jeunesse et de la Vie associative - 05/2012",regular
+3620401873,amenity,school,regular
+3620401873,name,École primaire Lurian 1,regular
+3620401873,UAI,0131143X,ref
+3620401873,FR,élémentaire,school
+3620401873,source,"data.gouv.fr:Ministère de l'Éducation nationale, de la Jeunesse et de la Vie associative - 05/2012",regular
+3620401874,amenity,school,regular
+3620401874,name,École primaire Lurian 2,regular
+3620401874,UAI,0131148C,ref
+3620401874,FR,élémentaire,school
+3620401874,source,"data.gouv.fr:Ministère de l'Éducation nationale, de la Jeunesse et de la Vie associative - 05/2012",regular
+3703453638,amenity,restaurant,regular
+3703453638,name,La boucherie,regular
+3703453639,name,Sport 2000,regular
+3703453639,shop,sports,regular
+3716053633,natural,tree,regular
+3716053634,natural,tree,regular
+3716053653,historic,aircraft,regular
+3716053653,name,Fouga Magister,regular
+3716053673,natural,tree,regular
+3716053674,natural,tree,regular
+3716053675,natural,tree,regular
+3716053676,natural,tree,regular
+3716053677,natural,tree,regular
+3955878872,city,Salon-de-Provence,addr
+3955878872,postcode,13300,addr
+3955878872,street,ZAC Le Quintin-Gandonne,addr
+3955878872,brand,Intersport,regular
+3955878872,wikidata,Q666888,brand
+3955878872,wikipedia,en:Intersport,brand
+3955878872,name,Intersport,regular
+3955878872,opening_hours,Mo-Sa 09:00-19:00,regular
+3955878872,phone,+33490440074,regular
+3955878872,shop,sports,regular
+3955878872,website,https://www.intersport.fr/Bouches-du-Rh%C3%B4ne-13/SALONDEPROVENCE-13300/INTERSPORT-SALONDEPROVENCE/00590_000/,regular
+4095239020,name,Clos Saint-Pierre,regular
+4095239020,place,neighbourhood,regular
+4686485333,highway,crossing,regular
+4686485334,highway,crossing,regular
+4911467936,barrier,gate,regular
+4911467939,amenity,car_rental,regular
+4911467939,name,Europcar,regular
+6331463343,natural,tree,regular
+6331463344,natural,tree,regular
+6331463345,natural,tree,regular
+6331463346,natural,tree,regular
+6331463347,natural,tree,regular
+6331463348,natural,tree,regular
+6331463349,natural,tree,regular
+6331463350,natural,tree,regular
+6331463351,natural,tree,regular
+6331463352,natural,tree,regular
+6331463353,natural,tree,regular
+6331463354,natural,tree,regular
+6331463355,natural,tree,regular
+6331463356,natural,tree,regular
+6331463357,natural,tree,regular
+6331463358,natural,tree,regular
+6331463359,natural,tree,regular
+6331463360,natural,tree,regular
+6331463361,natural,tree,regular
+6331463362,natural,tree,regular
+6331463363,natural,tree,regular
+6331463364,natural,tree,regular
+6331463365,natural,tree,regular
+6331463366,natural,tree,regular
+6331463367,natural,tree,regular
+6331463368,natural,tree,regular
+6331463369,natural,tree,regular
+6331463370,natural,tree,regular
+6331463371,natural,tree,regular
+6331463372,natural,tree,regular
+6331463373,natural,tree,regular
+6331463374,natural,tree,regular
+6331463376,natural,tree,regular
+6331463377,natural,tree,regular
+6331463378,natural,tree,regular
+6331463379,natural,tree,regular
+6331463380,natural,tree,regular
+6331463381,natural,tree,regular
+6331463382,natural,tree,regular
+6331463383,natural,tree,regular
+6331463384,natural,tree,regular
+6331466185,natural,tree,regular
+6331466186,natural,tree,regular
+6331466187,natural,tree,regular
+6388746943,bus,yes,regular
+6388746943,highway,bus_stop,regular
+6388746943,name,Trophées,regular
+6388746943,network,La Métropole Mobilité,regular
+6388746943,public_transport,platform,regular
+6388746944,bus,yes,regular
+6388746944,highway,bus_stop,regular
+6388746944,name,Trophées,regular
+6388746944,network,La Métropole Mobilité,regular
+6388746944,public_transport,platform,regular
+6389074332,bench,no,regular
+6389074332,bus,yes,regular
+6389074332,highway,bus_stop,regular
+6389074332,name,Avenue du 18 Juin 1940,regular
+6389074332,network,La Métropole Mobilité,regular
+6389074332,public_transport,platform,regular
+6389074332,shelter,no,regular
+6389074333,crossing,uncontrolled,regular
+6389074333,crossing_ref,zebra,regular
+6389074333,highway,crossing,regular
+6389074334,bus,yes,regular
+6389074334,highway,bus_stop,regular
+6389074334,name,Les Vallons,regular
+6389074334,public_transport,platform,regular
+6389074335,bus,yes,regular
+6389074335,highway,bus_stop,regular
+6389074335,name,Les Vallons,regular
+6389074335,public_transport,platform,regular
+6389074336,crossing,uncontrolled,regular
+6389074336,crossing_ref,zebra,regular
+6389074336,highway,crossing,regular
+6389074337,crossing,uncontrolled,regular
+6389074337,crossing_ref,zebra,regular
+6389074337,highway,crossing,regular
+6389074339,bench,yes,regular
+6389074339,bus,yes,regular
+6389074339,highway,bus_stop,regular
+6389074339,name,Avenue du 18 Juin 1940,regular
+6389074339,network,La Métropole Mobilité,regular
+6389074339,public_transport,platform,regular
+6389074339,shelter,yes,regular
+6389074339,waste_basket,yes,regular
+6405051414,crossing,marked,regular
+6405051414,highway,crossing,regular
+6406831679,crossing,marked,regular
+6406831679,highway,crossing,regular
+6410289553,crossing,marked,regular
+6410289553,highway,crossing,regular
+6410375704,crossing,marked,regular
+6410375704,highway,crossing,regular
+6410808258,natural,tree,regular
+6410808259,natural,tree,regular
+6410808260,natural,tree,regular
+6410808261,natural,tree,regular
+6410808262,natural,tree,regular
+6410808263,natural,tree,regular
+6410808264,natural,tree,regular
+6410808265,natural,tree,regular
+6410808266,natural,tree,regular
+6410808267,natural,tree,regular
+6410808268,natural,tree,regular
+6410808269,natural,tree,regular
+6410808270,natural,tree,regular
+6410808271,natural,tree,regular
+6410808272,natural,tree,regular
+6410808273,natural,tree,regular
+6410808274,natural,tree,regular
+6410808275,natural,tree,regular
+6432916429,natural,tree,regular
+6432916434,natural,tree,regular
+6432916477,natural,tree,regular
+6432916478,natural,tree,regular
+6432916479,natural,tree,regular
+6432916480,natural,tree,regular
+6432916481,natural,tree,regular
+6432916484,natural,tree,regular
+6432916485,natural,tree,regular
+6432916486,natural,tree,regular
+6432916487,natural,tree,regular
+6432916488,natural,tree,regular
+6432916489,natural,tree,regular
+6432916544,barrier,gate,regular
+6432916553,frequency,50,regular
+6432916553,location,outdoor,regular
+6432916553,operator,EDF,regular
+6432916553,phases,3,regular
+6432916553,power,transformer,regular
+6432916553,transformer,generator,regular
+6432916553,secondary,225000,voltage
+6432916554,frequency,50,regular
+6432916554,location,outdoor,regular
+6432916554,operator,EDF,regular
+6432916554,phases,3,regular
+6432916554,power,transformer,regular
+6432916554,transformer,generator,regular
+6432916554,secondary,225000,voltage
+6432916555,frequency,50,regular
+6432916555,location,outdoor,regular
+6432916555,operator,EDF,regular
+6432916555,phases,3,regular
+6432916555,power,transformer,regular
+6432916555,transformer,generator,regular
+6432916555,secondary,225000,voltage
+6432916557,operator,EDF,regular
+6432916557,pipeline,valve,regular
+6432916557,valve,gate,regular
+6432916559,operator,EDF,regular
+6432916559,pipeline,valve,regular
+6432916559,valve,gate,regular
+6432916561,operator,EDF,regular
+6432916561,pipeline,valve,regular
+6432916561,valve,gate,regular
+6432916571,frequency,50,regular
+6432916571,method,run-of-the-river,generator
+6432916571,output:electricity,34 MW,generator
+6432916571,source,hydro,generator
+6432916571,operator,EDF,regular
+6432916571,phases,3,regular
+6432916571,power,generator,regular
+6432916573,frequency,50,regular
+6432916573,method,run-of-the-river,generator
+6432916573,output:electricity,34 MW,generator
+6432916573,source,hydro,generator
+6432916573,operator,EDF,regular
+6432916573,phases,3,regular
+6432916573,power,generator,regular
+6432916576,frequency,50,regular
+6432916576,method,run-of-the-river,generator
+6432916576,output:electricity,34 MW,generator
+6432916576,source,hydro,generator
+6432916576,operator,EDF,regular
+6432916576,phases,3,regular
+6432916576,power,generator,regular
+6432916650,barrier,gate,regular
+6435812902,barrier,gate,regular
+6442039883,barrier,gate,regular
+6444481143,barrier,gate,regular
+6444481148,barrier,gate,regular
+6481568899,historic,monument,regular
+6481568899,name,Nostradamus,regular
+6481568900,historic,monument,regular
+6481568900,name,Savon de Marseille,regular
+7632593108,crossing,marked,regular
+7632593108,highway,crossing,regular
+7632593112,crossing,marked,regular
+7632593112,highway,crossing,regular
+7733238320,amenity,recycling,regular
+7733238320,location,overground,regular
+7733238320,cardboard,yes,recycling
+7733238320,paper,yes,recycling
+7733238320,plastic_packaging,yes,recycling
+7733238320,recycling_type,container,regular
+7733238321,amenity,recycling,regular
+7733238321,location,overground,regular
+7733238321,glass_bottles,yes,recycling
+7733238321,recycling_type,container,regular
+7733238322,amenity,recycling,regular
+7733238322,location,overground,regular
+7733238322,cardboard,yes,recycling
+7733238322,plastic_packaging,yes,recycling
+7733238322,recycling_type,container,regular
+7733238324,amenity,recycling,regular
+7733238324,location,overground,regular
+7733238324,cardboard,yes,recycling
+7733238324,plastic_packaging,yes,recycling
+7733238324,recycling_type,container,regular
+7912183613,city,Salon-de-Provence,addr
+7912183613,postcode,13300,addr
+7912183613,street,Boulevard du Roi René,addr
+7912183613,brand,Eurotyre,regular
+7912183613,wikidata,Q3060871,brand
+7912183613,wikipedia,fr:Eurotyre,brand
+7912183613,name,Eurotyre,regular
+7912183613,opening_hours,"Mo-Fr 08:00-12:30,13:30-18:00; Sa 08:30-12:30,13:30-17:00",regular
+7912183613,phone,+33490531575,regular
+7912183613,shop,tyres,regular
+7912183613,website,https://centres.euromaster.fr/214-euromaster-salon-de-provence,regular
+7912183614,city,Salon-de-Provence,addr
+7912183614,address,"N 538 - 666, boulevard du Roi René",regular
+7912183614,postcode,13300,addr
+7912183614,street,Boulevard du Roi René,addr
+7912183614,amenity,fuel,regular
+7912183614,brand,Total,regular
+7912183614,wikidata,Q154037,brand
+7912183614,wikipedia,fr:Total (entreprise),brand
+7912183614,compressed_air,yes,regular
+7912183614,diesel,yes,fuel
+7912183614,e10,yes,fuel
+7912183614,lpg,yes,fuel
+7912183614,octane_98,yes,fuel
+7912183614,lanes,yes,hgv
+7912183614,name,Station Total - Garage Renault,regular
+7912183614,opening_hours,24/7,regular
+7912183614,operator,Total,regular
+7912183614,FR:prix-carburants,13300001,ref
+7912183614,shop,convenience,regular
+7912183614,source,stations.gpl.online.fr,regular
+7912183614,vending,fuel,regular
+7912183614,vending_machine,fuel,regular
+7912183614,wall,no,regular
+7912183615,city,Salon-de-Provence,addr
+7912183615,housenumber,637,addr
+7912183615,postcode,13300,addr
+7912183615,street,Boulevard du Roi René,addr
+7912183615,brand,Renault,regular
+7912183615,wikidata,Q6686,brand
+7912183615,wikipedia,fr:Renault,brand
+7912183615,name,Renault,regular
+7912183615,phone,+33490170606,regular
+7912183615,shop,car_repair,regular
+7912183615,source,cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011,regular
+7912183615,website,https://www.renault.fr/,regular
+7912183619,shop,convenience,regular
+7912183619,source,cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011,regular
+7912183620,city,Salon-de-Provence,addr
+7912183620,housenumber,666,addr
+7912183620,postcode,13300,addr
+7912183620,street,Boulevard du Roi René,addr
+7912183620,brand,Renault,regular
+7912183620,wikidata,Q6686,brand
+7912183620,wikipedia,fr:Renault,brand
+7912183620,name,Renault,regular
+7912183620,opening_hours,"Mo-Fr 08:00-12:30,13:30-19:00; Sa 08:30-12:30,14:00-19:00",regular
+7912183620,operator,S.A.P.A.S.,regular
+7912183620,phone,+33 4 90 42 13 13,regular
+7912183620,shop,car,regular
+7912183620,source,cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011,regular
+7912183620,website,https://concessionnaire.renault.fr/salon-provence.html,regular
+7912183621,city,Salon-de-Provence,addr
+7912183621,postcode,13300,addr
+7912183621,street,Rue des Ventadourio,addr
+7912183621,name,Au Forum Du Batiment,regular
+7912183621,opening_hours,"Mo 08:00-12:00,13:45-17:00; Tu-Fr 07:30-12:00,13:45-17:00, Sa 07:30-12:00,13:45-16:00",regular
+7912183621,phone,+33490532967,regular
+7912183621,shop,doityourself,regular
+7912183621,website,https://www.afdb.fr/?utm_medium=SEO&utm_source=googlemap&utm_campaign=pointdevente&utm_content=googlemap,regular
+7912183622,city,Salon-de-Provence,addr
+7912183622,housenumber,246,addr
+7912183622,postcode,13300,addr
+7912183622,street,Rue des Canesteu,addr
+7912183622,brand,Pôle Emploi,regular
+7912183622,wikidata,Q8901192,brand
+7912183622,wikipedia,en:Pôle emploi,brand
+7912183622,name,Pôle Emploi,regular
+7912183622,office,employment_agency,regular
+7912183622,opening_hours,Mo-Fr 08:30-12:30,regular
+7912183622,phone,+33972723949,regular
+7912183622,website,https://www.pole-emploi.fr/accueil/,regular
+7916172926,amenity,charging_station,regular
+7916172935,city,Salon-de-Provence,addr
+7916172935,housenumber,641,addr
+7916172935,postcode,13300,addr
+7916172935,street,Boulevard du Roi René,addr
+7916172935,healthcare,centre,regular
+7916172935,speciality,radiology,healthcare
+7916172935,name,Groupement Salonais de Radiologie,regular
+7916172935,opening_hours,"Mo-Fr 08:00-12:00,14:00-18:00; Sa 08:15-12:00",regular
+7916172935,phone,+33490560185,regular
+7916172935,website,http://www.radiologie-salon.fr/,regular
+7916172936,city,Salon-de-Provence,addr
+7916172936,housenumber,683,addr
+7916172936,postcode,13300,addr
+7916172936,street,Boulevard du Roi René,addr
+7916172936,healthcare,dentist,regular
+7916172936,speciality,dentist,healthcare
+7916172936,name,Cabinet HERVY PEYRET,regular
+7916172936,phone,+33 4 90 50 20 49,regular
+7916172937,city,Salon-de-Provence,addr
+7916172937,housenumber,641,addr
+7916172937,postcode,13300,addr
+7916172937,street,Boulevard du Roi René,addr
+7916172937,healthcare,yes,regular
+7916172937,speciality,ophthalmology,healthcare
+7916172937,name,Salon Vision - Centre d’Ophtalmologie des Docteurs DELEMASURE et GARDERE,regular
+7916172937,phone,+33 4 90 44 74 00,regular
+7916172937,website,https://salonvision.fr/,regular
+7916172938,city,Salon-de-Provence,addr
+7916172938,housenumber,641,addr
+7916172938,postcode,13300,addr
+7916172938,street,Boulevard du Roi René,addr
+7916172938,healthcare,doctor,regular
+7916172938,speciality,general,healthcare
+7916172938,name,Cabinet du Docteur Bourachot Jean-Pierre,regular
+7916172938,phone,+33490560185,regular
+7925763935,city,Salon-de-Provence,addr
+7925763935,housenumber,78,addr
+7925763935,postcode,13300,addr
+7925763935,street,Avenue de la Patrouille de France,addr
+7925763935,brand,Midas,regular
+7925763935,wikipedia,en:Midas (automotive service),brand
+7925763935,facebook,https://www.facebook.com/MidasFr/,regular
+7925763935,name,Midas,regular
+7925763935,operator,Midas,regular
+7925763935,phone,+33 4 90 53 80 00,regular
+7925763935,shop,car_repair,regular
+7925763935,website,https://www.midas.fr/,regular
+7925763935,wikidata,Q3312613,regular
+7981125526,barrier,gate,regular
+7981125532,barrier,cycle_barrier,regular
+7981125541,barrier,gate,regular
+7981165196,highway,turning_circle,regular
