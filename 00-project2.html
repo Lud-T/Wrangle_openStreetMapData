@@ -13077,9 +13077,15 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="NOTA">NOTA<a class="anchor-link" href="#NOTA">&#182;</a></h1><p>Second submission</p>
-<p>What's new :</p>
+<h1 id="NOTA">NOTA<a class="anchor-link" href="#NOTA">&#182;</a></h1><h2 id="third-submission">third submission<a class="anchor-link" href="#third-submission">&#182;</a></h2><p>What's new :</p>
 <ol>
+  <li>Apply update when exporting csv => 03-convertToCSV.py</li>
+  <li>(Optional) Improving the shape_element() function => 03-convertToCSV.py</li>
+  <li>Using docstrings => I'll use it directlyy in a next project as well as sphinx</li>
+  <li>Submission document includes one or more additional suggestions for improving the data or its analysis. The suggestions are backed up by at least one investigative query.</li>
+  <li>Submission document includes thoughtful discussion about the benefits as well as some anticipated problems in implementing the improvement.</li>
+</ol><p><strong><em>Additionnal suggestions in this chapter. </em></strong></p>
+<li><a href="#ideas">Other ideas about the dataset </a></li><h2 id="second-submission-:">second submission :<a class="anchor-link" href="#second-submission-:">&#182;</a></h2><ol>
   <li>From iypnb to html for 00 file</li>
   <li>From iypnb to py for 01 to 04 files</li>
   <li>From iypnb to txt for 99 file</li>
@@ -13123,7 +13129,8 @@ I learn a lot from the differents solutions every people used, then I have been 
 <li><a href="#Overview">Overview of data</a></li>
 <li><a href="#citynameUpdate">City name processing</a></li>
 <li><a href="#fromXMLtoCSV">CSV conversion</a></li>
-<li><a href="#SQLpart">SQLite</a></li>   
+<li><a href="#SQLpart">SQLite</a></li>
+<li><a href="#ideas">Other ideas about the dataset </a></li>
 <li><a href="#conclusions">Conclusions</a></li>
 </ul>
 </div>
@@ -13520,8 +13527,34 @@ I wanted to make this analysis because of french specifities.</p>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
+<p><a id='ideas'></a></p>
+<h2 id="Other-ideas-about-the-dataset">Other ideas about the dataset<a class="anchor-link" href="#Other-ideas-about-the-dataset">&#182;</a></h2><li><a href="#summary">back to summary</a></li><p><strong><em>Concerning phone numbers</em></strong>, I noticed, whereas there are not wrong, are not in the same format.</p>
+<div class="highlight"><pre><span></span><span class="p">(</span><span class="s1">&#39;phone&#39;</span><span class="p">,</span> <span class="s1">&#39;+33490560194&#39;</span><span class="p">),</span>
+ <span class="p">(</span><span class="s1">&#39;phone&#39;</span><span class="p">,</span> <span class="s1">&#39;+33490532634&#39;</span><span class="p">),</span>
+ <span class="p">(</span><span class="s1">&#39;phone&#39;</span><span class="p">,</span> <span class="s1">&#39;+33 4 90 17 07 17&#39;</span><span class="p">),</span>
+ <span class="p">(</span><span class="s1">&#39;phone&#39;</span><span class="p">,</span> <span class="s1">&#39;+33 4 90 17 07 17&#39;</span><span class="p">),</span>
+ <span class="p">(</span><span class="s1">&#39;phone&#39;</span><span class="p">,</span> <span class="s1">&#39;+33 4 90 17 07 17&#39;</span><span class="p">),</span>
+ <span class="p">(</span><span class="s1">&#39;phone&#39;</span><span class="p">,</span> <span class="s1">&#39;+33 4 90 53 54 55&#39;</span><span class="p">),</span>
+</pre></div>
+<p>First, we should figure out in which format we want them.
+Althought the spaces between the numbers makes it easy to read and even to write it manually, I do not suggest this format.
+I imagine a parser to add the spaces when it is time to display it but we should try to work with the less space possible.</p>
+<p><strong><em>I sign in in OSM website to check the online tool to edit.</em></strong> It is really impressive, everything is made to formalize as much as we can the data input.</p>
+<p>I imagine two ways to improve the data quality and the data quantity.
+<strong><em>Quality</em></strong> of data may be improved in the long term by adding an accuracy rating from the users of the map. It may lead to put priorities on which data should be cleaned.<br>
+Majority of people will be scared to use the tool or even to put data into the databases, but put a score on the result may encourage them to interact a way, which is better than no interaction at all.</p>
+<p>Concerning the <strong><em>quantity</em></strong>, inspiring by video games, we may add rewards to users about the first discover of some places, amenity and others points of interest, like explorer in the past.<br>
+I guess it could be more rewarding, but also may lead to rushing and bad quality.
+If we highlight the submitter on a other side, they will feel the usefulness of their work and be encouraged to continue.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
 <p><a id='conclusions'></a></p>
-<h2 id="Conclusions">Conclusions<a class="anchor-link" href="#Conclusions">&#182;</a></h2><p>Although I knew there was some open source database I never used or worked with one of them.<br>
+<h2 id="Conclusions">Conclusions<a class="anchor-link" href="#Conclusions">&#182;</a></h2><li><a href="#summary">back to summary</a></li><p>Although I knew there was some open source database I never used or worked with one of them.<br>
 I am really surprised so much data, also incompleted, already exist in the place I live, it is really a small town.<br>
 There are small inconsistencies in the city names, but at least the data are existing.</p>
 <p>I learn a lot with this project and the related courses.<br>
@@ -13533,7 +13566,7 @@ Another topic I highlight is when I understood everything was dictionary, this i
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[5]:</div>
+<div class="prompt input_prompt">In&nbsp;[6]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">subprocess</span> <span class="kn">import</span> <span class="n">call</span>
@@ -13550,7 +13583,7 @@ Another topic I highlight is when I understood everything was dictionary, this i
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[5]:</div>
+    <div class="prompt output_prompt">Out[6]:</div>
 
 
 

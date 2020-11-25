@@ -1,6 +1,18 @@
 #!/usr/bin/env python
 # coding: utf-8
 
+# # Third submission
+# 
+# 
+# ## Scripts cannot be run from the command prompt/terminal
+# 
+# There are some function calls that come from Jupyter notebook in your Python scripts i.e. the lines that begin with get_ipython(). They produce errors when running the python scripts e.g. python 02-cityNames-process.py. Make sure your code can be run to correct the elements from the command prompt to pass this specification.
+# 
+# 
+# 
+# 
+# ***As I was not sure about what I was doing to measure the performances so, as it is not the purpose of this exercice, I delete these portion of code, and now the code works using command prompt.***
+
 # # References
 # 
 # ## UDACITY
@@ -61,7 +73,7 @@
 #  
 #  What I will do now is creating a dictionary and put the right city name for each of these occurences.
 
-# In[200]:
+# In[1]:
 
 
 #
@@ -139,25 +151,6 @@ if __name__ == "__main__":
 # 
 # 
 # Thanks to dictionnaries we replace wrong name by good one.
-
-# Let's check if I have better results checking only errors !
-# I try the same code with %%timeit
-
-# In[201]:
-
-
-get_ipython().run_cell_magic('timeit', '', '#\n#Basic code I\'ll use to go trhu the XML and count.\n#\n#!/usr/bin/env python\n# -*- coding: utf-8 -*-\nimport xml.etree.ElementTree as ET\nimport re\nfrom pprint import pprint\nimport operator\n\n\n#osm_file = \'data/small_sample_map.osm\'\nosm_file = \'data/map.osm\'\n\n\nmapping = {\n    "Salon-de-Provence": "Salon de Provence",\n    "Pélissanne": "Pélissanne",\n    "Lançon-Provence": "Lançon-Provence",\n    "Grans": "Grans",\n    "Eyguières": "Eyguières",\n    "PELISSANNE": "Pélissanne",\n    "Lançon-En-Provence": "Lançon-Provence",\n    "Aurons": "Aurons",\n    "Pelissanne": "Pélissanne",\n    "La Barben": "La Barben",\n    "Lançon": "Lançon-Provence",\n    "Salon de Provence": "Salon de Provence"\n}\n\n\n\ndef checkNupdate(filename):\n    #count is a dictionary, dictionary manage pairs\n    count = {}\n    #Loop all the element in the file at first level !\n    #All element are tags\n    for _, element in ET.iterparse(filename):\n        #print(element.tag)\n        tagK = element.get(\'k\')\n        #tagK variable <= Key name\n        #If there is a k value count it\n        if tagK == \'addr:city\':\n            tagV = element.get(\'v\')\n            if tagV in mapping:\n                tagV=mapping[tagV]\n            #print(mapping[tagV])\n            #If Key name is not present in the count dict\n            #add Key name in the dict with value 1\n            if tagV not in count.keys():\n                count[tagV] = 1\n            #If tag name is already existing in the count dict\n            #add 1  to the value of the already existing tag name\n            else:\n                count[tagV] += 1\n\n    return count\n\n\n\ndef main():\n    #call function and return a dictionary\n    count = checkNupdate(osm_file)\n    #Sort dictionary\n    count = sorted(count.items(), key=operator.itemgetter(1))[::-1]\n    #Display dictionary !\n    pprint(count)\n\n    \nif __name__ == "__main__":\n    main()')
-
-
-# In[202]:
-
-
-get_ipython().run_cell_magic('timeit', '', '#\n#Basic code I\'ll use to go trhu the XML and count.\n#\n#!/usr/bin/env python\n# -*- coding: utf-8 -*-\nimport xml.etree.ElementTree as ET\nimport re\nfrom pprint import pprint\nimport operator\n\n\n#osm_file = \'data/small_sample_map.osm\'\nosm_file = \'data/map.osm\'\n\n\nmapping = {\n    "Salon-de-Provence": "Salon de Provence",\n#    "Pélissanne": "Pélissanne",\n    "Lançon-Provence": "Lançon-Provence",\n#    "Grans": "Grans",\n    "Eyguières": "Eyguières",\n    "PELISSANNE": "Pélissanne",\n    "Lançon-En-Provence": "Lançon-Provence",\n#    "Aurons": "Aurons",\n    "Pelissanne": "Pélissanne",\n#    "La Barben": "La Barben",\n    "Lançon": "Lançon-Provence",\n#    "Salon de Provence": "Salon de Provence"\n}\n\n\n\ndef checkNupdate(filename):\n    #count is a dictionary, dictionary manage pairs\n    count = {}\n    #Loop all the element in the file at first level !\n    #All element are tags\n    for _, element in ET.iterparse(filename):\n        #print(element.tag)\n        tagK = element.get(\'k\')\n        #tagK variable <= Key name\n        #If there is a k value count it\n        if tagK == \'addr:city\':\n            tagV = element.get(\'v\')\n            if tagV in mapping:\n                tagV=mapping[tagV]\n            #print(mapping[tagV])\n            #If Key name is not present in the count dict\n            #add Key name in the dict with value 1\n            if tagV not in count.keys():\n                count[tagV] = 1\n            #If tag name is already existing in the count dict\n            #add 1  to the value of the already existing tag name\n            else:\n                count[tagV] += 1\n\n    return count\n\n\n\ndef main():\n    #call function and return a dictionary\n    count = checkNupdate(osm_file)\n    #Sort dictionary\n    count = sorted(count.items(), key=operator.itemgetter(1))[::-1]\n    #Display dictionary !\n    pprint(count)\n\n    \nif __name__ == "__main__":\n    main()')
-
-
-# ***It sound to be not so significant***
-# 
-# But honestly, I am not sure of what I am doing.
 
 # In[ ]:
 

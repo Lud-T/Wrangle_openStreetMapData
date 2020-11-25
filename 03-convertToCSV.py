@@ -1,6 +1,75 @@
 #!/usr/bin/env python
 # coding: utf-8
 
+# # Third submission
+# 
+# ## Changes required
+# 
+# 
+# 
+# 
+# ### (Optional) Improving the shape_element() function
+# 
+# This is the current shape_element function's definition:
+# 
+# def shape_element(element, node_attr_fields=NODE_FIELDS, way_attr_fields=WAY_FIELDS,
+#                   problem_chars=PROBLEMCHARS, default_tag_type='regular'):
+# 
+# Currently, these four parameters node_attr_fields to default_tag_type were never used in the code. Instead, the constants were used e.g. NODE_FIELDS instead of node_attr_fields. This issue did not cause the functions to stop working properly, so I do not mark this as failing the specification, but I strongly suggest to replace the constants with parameter variables so you can more easily migrate the functions to other projects.
+# 
+# ***To be honest, it was already tough for me as is. I deleted the useless arguments but I prefer to let as is***
+# 
+# 
+# ### Using DocString
+# 
+# I read a little bit of sphinx. It seems pretty productive, I'll use it in the next projects.
+# 
+# 
+# ### Updates not applied
+# 
+# Update functions need to be called from inside the shape_element() function to ensure that records are cleaned before they are sent to the database.
+# 
+# See that in the file 02-cityNames-process.py you have a mapping variable to correct the street names. This variable needs to be utilized when iterating through the elements i.e. in the shape_element() function in 03-convertToCSV.py.
+# 
+# ### Some of the problems encountered during data audit are cleaned programmatically.
+# 
+# Update and correction functions need to be called from shape_element() function so they may be applied prior to extracting the osm file into the dataset.
+# 
+# 
+# ***I have added mapping dic and an if statement to check if the data is 'addr:city'. If yes we apply the cleaning.
+# 
+# 
+# ```python
+# 
+# if subElement.get('k') == 'addr:city':
+#     #print ("corriger ", subElement.get('v'))
+#     #print ("corrigé ", mapping[subElement.get('v')])
+#     tag_dict['value'] = mapping[subElement.get('v')]
+# else:
+#     tag_dict['value'] = subElement.get('v')
+# ```
+# 
+# 
+# 
+# 
+# 
+# ```python
+# mapping = {
+#     "Salon-de-Provence": "Salon de Provence",
+#     "Pélissanne": "Pélissanne",
+#     "Lançon-Provence": "Lançon-Provence",
+#     "Grans": "Grans",
+#     "Eyguières": "Eyguières",
+#     "PELISSANNE": "Pélissanne",
+#     "Lançon-En-Provence": "Lançon-Provence",
+#     "Aurons": "Aurons",
+#     "Pelissanne": "Pélissanne",
+#     "La Barben": "La Barben",
+#     "Lançon": "Lançon-Provence",
+#     "Salon de Provence": "Salon de Provence"
+# }
+# ```
+
 # # References
 # 
 # ## UDACITY
@@ -67,7 +136,7 @@
 
 # 
 
-# In[1]:
+# In[8]:
 
 
 #Final !
@@ -237,16 +306,6 @@ import cerberus
 
 import my_schema
 
-"""
-OSM_PATH = 'data/small_sample_map.osm'
-
-NODES_PATH = "csv_test/nodes.csv"
-NODE_TAGS_PATH = "csv_test/nodes_tags.csv"
-WAYS_PATH = "csv_test/ways.csv"
-WAY_NODES_PATH = "csv_test/ways_nodes.csv"
-WAY_TAGS_PATH = "csv_test/ways_tags.csv"
-"""
-
 OSM_PATH = 'data/map.osm'
 
 NODES_PATH = "csv/nodes.csv"
@@ -255,7 +314,20 @@ WAYS_PATH = "csv/ways.csv"
 WAY_NODES_PATH = "csv/ways_nodes.csv"
 WAY_TAGS_PATH = "csv/ways_tags.csv"
 
-
+mapping = {
+    "Salon-de-Provence": "Salon de Provence",
+    "Pélissanne": "Pélissanne",
+    "Lançon-Provence": "Lançon-Provence",
+    "Grans": "Grans",
+    "Eyguières": "Eyguières",
+    "PELISSANNE": "Pélissanne",
+    "Lançon-En-Provence": "Lançon-Provence",
+    "Aurons": "Aurons",
+    "Pelissanne": "Pélissanne",
+    "La Barben": "La Barben",
+    "Lançon": "Lançon-Provence",
+    "Salon de Provence": "Salon de Provence"
+}
 
 LOWER_COLON = re.compile(r'^([a-z]|_)+:([a-z]|_)+')
 PROBLEMCHARS = re.compile(r'[=\+/&<>;\'"\?%#$@\,\. \t\r\n]')
@@ -270,8 +342,7 @@ WAY_TAGS_FIELDS = ['id', 'key', 'value', 'type']
 WAY_NODES_FIELDS = ['id', 'node_id', 'position']
 
 
-def shape_element(element, node_attr_fields=NODE_FIELDS, way_attr_fields=WAY_FIELDS,
-                  problem_chars=PROBLEMCHARS, default_tag_type='regular'):
+def shape_element(element):
     """Clean and shape node or way XML element to Python dict"""
 
     #Dict
@@ -284,7 +355,9 @@ def shape_element(element, node_attr_fields=NODE_FIELDS, way_attr_fields=WAY_FIE
 
     
     # YOUR CODE HERE
-   
+    """Function main explanation.
+    
+    """  
     
     if element.tag == 'node':     
 
@@ -317,7 +390,15 @@ def shape_element(element, node_attr_fields=NODE_FIELDS, way_attr_fields=WAY_FIE
                     separator = subElement.get('k').find(':')
                     #print ("- find ':' =>", separator)
                     tag_dict['id'] = element.get('id')
-                    tag_dict['value'] = subElement.get('v')
+                    
+                    
+                    if subElement.get('k') == 'addr:city':
+                        #print ("corriger ", subElement.get('v'))
+                        #print ("corrigé ", mapping[subElement.get('v')])
+                        tag_dict['value'] = mapping[subElement.get('v')]
+                    else:
+                        tag_dict['value'] = subElement.get('v')
+                    
                     if (separator != -1):
                         type_value = subElement.get('k')[:separator]
                         key_value = subElement.get('k')[separator+1:]
@@ -381,6 +462,7 @@ def shape_element(element, node_attr_fields=NODE_FIELDS, way_attr_fields=WAY_FIE
                     continue
                 else:             
                     tag_dict['id'] = element.get('id')
+                    #print ("- subElement <tag => ", subElement.get('k'))
                     tag_dict['value'] = subElement.get('v')
 
                     if (separator != -1):
